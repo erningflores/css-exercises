@@ -25,28 +25,25 @@ a {
 }
 /* I did everything below */
 
-.first li{
-  padding-left: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-.second li{
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
 .header{
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  padding: 10px;
+}
+ul{
+  display: flex;
+  padding: 8px;
+  gap: 10px;
+}
+li{
+  width: 100%;
+  padding: 8px;
 }
 
-.first, .second{
-  display: flex;
-  align-items: center;
-  padding: 0px;
+
+/*
+.header, .left-links, .right-links, ul, li{
+  border: 1px solid black;
 }
+*/
 /*the solution is way much better*/
