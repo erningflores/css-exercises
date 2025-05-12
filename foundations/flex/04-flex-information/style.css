@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+/*I have done everything below*/
+.container, .wrapper{
+  display: flex;
+}
+.container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+.wrapper{
+  gap: 52px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-basis: 200px;
+  justify-content: center;
+  align-items: center;
+}
+/*The solution is way much better.*/
