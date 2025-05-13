@@ -27,3 +27,76 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+/*I have done everything below*/
+/*
+*{
+  border: 1px solid red;
+}
+*/
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+  line-height: 72px;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer{
+  text-align: center;
+  line-height: 72px;
+}
+.content{
+  display: flex;
+  flex: 1;
+}
+.sidebar{
+  flex-basis: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin-bottom: 16px;
+}
+@media (min-width: 800px){
+  .cards{
+    flex: 1;
+  }
+}
+/*
+.cards{
+  margin: 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 48px;
+}
+.card{
+  padding: 10px;
+  box-shadow: 2px 2px 5px rgb(255,0,0);
+}
+*/
+.cards{
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card{
+  padding: 10px;
+  height: auto;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgb(255,0,0);
+}
